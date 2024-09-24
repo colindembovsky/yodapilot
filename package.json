@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Express API for Yoda extension",
   "main": "src/app.ts",
+  "type": "module",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.ts"
+    "dev": "nodemon ts-node src/app.ts"
   },
   "dependencies": {
     "express": "^4.17.1"
