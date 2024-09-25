@@ -4,5 +4,5 @@ import { IndexController } from '../controllers/index.js';
 export function setRoutes(app: express.Application): void {
   const indexController = new IndexController();
 
-  app.get('/', indexController.getIndex);
+  app.post('/', express.json(), indexController.postIndex);
 }
