@@ -36,7 +36,3 @@ export TOKEN=<token from the device flow section>
 
 gh debug-cli
 ```
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
