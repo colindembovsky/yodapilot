@@ -1,7 +1,7 @@
 {
-  "name": "yoda-extension",
+  "name": "yodapilot",
   "version": "1.0.0",
-  "description": "Express API for Yoda extension",
+  "description": "Express API-based Copilot Extension",
   "main": "src/app.ts",
   "type": "module",
   "scripts": {
